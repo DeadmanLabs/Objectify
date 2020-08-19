@@ -1,0 +1,6 @@
+C:\Users\Omen\source\repos\Objectify\Objectify\bin\Debug\Objectify.dll
+C:\Users\Omen\source\repos\Objectify\Objectify\bin\Debug\Objectify.pdb
+C:\Users\Omen\source\repos\Objectify\Objectify\obj\Debug\Objectify.csprojAssemblyReference.cache
+C:\Users\Omen\source\repos\Objectify\Objectify\obj\Debug\Objectify.csproj.CoreCompileInputs.cache
+C:\Users\Omen\source\repos\Objectify\Objectify\obj\Debug\Objectify.dll
+C:\Users\Omen\source\repos\Objectify\Objectify\obj\Debug\Objectify.pdb
