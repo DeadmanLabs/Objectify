@@ -33,19 +33,20 @@ Example
 
 Plugin:
 <code>
-Dictionary<String, object> param = new Dictionary<String, object>();  
-  
+Dictionary<String, object> param = new Dictionary<String, object>();
+<br>
 param.Add("Name", "Deadman");  
-
+<br>
 param.Add("Age", 99);  
-
+<br>
 param.Add("Face", (Bitmap)this.Properties.Resources.Image1;  
-
+<br>
 Objectify RemoteClass = new Objectify(SourceAssembly, "Plugin.RemoteStructure", param); 
-
+<br>
 object value = RemoteClass.CallFunction("MyFunction", new Dictionary<String, object>()); 
-
+<br>
 Type VariableType = null;  
-
+<br>
 object value = RemoteClass.CallVariable("MyName", out VariableType);  
+<br>
 </code>
