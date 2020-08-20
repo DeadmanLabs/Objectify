@@ -34,11 +34,18 @@ Example
 Plugin:
 <code>
 Dictionary<String, object> param = new Dictionary<String, object>();  
+  
 param.Add("Name", "Deadman");  
+
 param.Add("Age", 99);  
+
 param.Add("Face", (Bitmap)this.Properties.Resources.Image1;  
-Objectify RemoteClass = new Objectify(SourceAssembly, "Plugin.RemoteStructure", param);  
-object value = RemoteClass.CallFunction("MyFunction", new Dictionary<String, object>());  
+
+Objectify RemoteClass = new Objectify(SourceAssembly, "Plugin.RemoteStructure", param); 
+
+object value = RemoteClass.CallFunction("MyFunction", new Dictionary<String, object>()); 
+
 Type VariableType = null;  
+
 object value = RemoteClass.CallVariable("MyName", out VariableType);  
 </code>
