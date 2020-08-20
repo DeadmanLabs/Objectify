@@ -30,11 +30,11 @@ Example
 
 Plugin:
 
-Dictionary<String, object> param = new Dictionary<String, object>();
-param.Add("Name", "Deadman");
-param.Add("Age", 99);
-param.Add("Face", (Bitmap)this.Properties.Resources.Image1;
-Objectify RemoteClass = new Objectify(SourceAssembly, "Plugin.RemoteStructure", param);
-object value = RemoteClass.CallFunction("MyFunction", new Dictionary<String, object>());
-Type VariableType = null;
-object value = RemoteClass.CallVariable("MyName", out VariableType);
+Dictionary<String, object> param = new Dictionary<String, object>();\n
+param.Add("Name", "Deadman");\n
+param.Add("Age", 99);\n
+param.Add("Face", (Bitmap)this.Properties.Resources.Image1;\n
+Objectify RemoteClass = new Objectify(SourceAssembly, "Plugin.RemoteStructure", param);\n
+object value = RemoteClass.CallFunction("MyFunction", new Dictionary<String, object>());\n
+Type VariableType = null;\n
+object value = RemoteClass.CallVariable("MyName", out VariableType);\n
