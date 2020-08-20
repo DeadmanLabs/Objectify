@@ -8,7 +8,7 @@ uses for it in my unfinished ML Builder, where I use it to import environments w
 
 Constructors
 <code>
-public Objectify(Assembly Container, String Class, Dictionary<String, object> parameters) {  }
+public Objectify(Assembly Container, String Class, Dictionary<String, object> parameters) {  }  
 </code>
 This constructor is for creating a new instance of an object that exists in another assembly.
 
@@ -17,7 +17,7 @@ Class = The location of the structure that this object follows
 parameters = the parameters that are passed to the remote constructor (string is the parameter name, and object is the value)
 
 <code>
-public Objectify(Assembly Container, String Class, object Instance) {  }
+public Objectify(Assembly Container, String Class, object Instance) {  }  
 </code>
 This constructor is for converting an existing instance of an object, to an Objectify instance.
 
@@ -29,7 +29,7 @@ Example
 -------------------------------------------------------------------------------------------------------------------
 
 Plugin:
-
+<code>
 Dictionary<String, object> param = new Dictionary<String, object>();  
 param.Add("Name", "Deadman");  
 param.Add("Age", 99);  
@@ -38,4 +38,4 @@ Objectify RemoteClass = new Objectify(SourceAssembly, "Plugin.RemoteStructure", 
 object value = RemoteClass.CallFunction("MyFunction", new Dictionary<String, object>());  
 Type VariableType = null;  
 object value = RemoteClass.CallVariable("MyName", out VariableType);  
-
+</code>
