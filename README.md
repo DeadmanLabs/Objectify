@@ -31,21 +31,11 @@ Instance = the original instance of the object
 Example
 -------------------------------------------------------------------------------------------------------------------
 
-<code>
-  <br>Dictionary<String, object> param = new Dictionary<String, object>();</br>
-  
-  <br>param.Add("Name", "Deadman");</br>
-  
-  <br>param.Add("Age", 99);  </br>
-  
-  <br>param.Add("Face", (Bitmap)this.Properties.Resources.Image1;  </br>
-  
-  <br>Objectify RemoteClass = new Objectify(SourceAssembly, "Plugin.RemoteStructure", param); </br>
-  
-  <br>object value = RemoteClass.CallFunction("MyFunction", new Dictionary<String, object>()); </br>
-  
-  <br>Type VariableType = null;  </br>
-  
-  <br>object value = RemoteClass.CallVariable("MyName", out VariableType);  </br>
-  
-</code>
+  Dictionary<String, object> param = new Dictionary<String, object>();  
+  param.Add("Name", "Deadman");  
+  param.Add("Age", 99);  
+  param.Add("Face", (Bitmap)this.Properties.Resources.Image1;  
+  Objectify RemoteClass = new Objectify(SourceAssembly, "Plugin.RemoteStructure", param);  
+  object value = RemoteClass.CallFunction("MyFunction", new Dictionary<String, object>());  
+  Type VariableType = null;  
+  object value = RemoteClass.CallVariable("MyName", out VariableType);  
